@@ -1,0 +1,9 @@
+node_modules/
+.turbo/
+dist/
+*.db
+*.db-journal
+uploads/*
+!uploads/.gitkeep
+.expo/
+.env
