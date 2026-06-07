@@ -1,0 +1,1 @@
+### Não apague esse arquivo, pois para o upload das imagens funcionar eu preciso que essa pasta apps/server/uploads exista. E para commitar ela eu preciso de um arquivo dentro dela.
