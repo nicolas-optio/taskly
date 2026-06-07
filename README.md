@@ -83,6 +83,6 @@ O banco SQLite (`taskly.db`) e a pasta `uploads/` são criados automaticamente n
 
 ## Integrantes
 
-- Nicolas Gomes Lima — RA: ______
-- ______________________ — RA: ______
-# taskly
+- Nicolas Gomes Lima — RA: 081230048    
+- Felipe Medeiros de Carvalho — RA: 081230026
+
