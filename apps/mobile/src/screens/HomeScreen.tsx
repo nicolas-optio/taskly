@@ -54,7 +54,7 @@ export function HomeScreen({ navigation }: Props) {
   useFocusEffect(
     useCallback(() => {
       loadData();
-    }, [loadData])
+    }, [loadData]),
   );
 
   async function handleRefresh() {
@@ -99,7 +99,9 @@ export function HomeScreen({ navigation }: Props) {
         <View style={styles.headerLeft}>
           <Avatar name={user?.name ?? "?"} uri={imageUrl(user?.avatarUrl)} />
           <View style={styles.headerText}>
-            <Text style={styles.greeting}>Olá, {user?.name?.split(" ")[0]} 👋</Text>
+            <Text style={styles.greeting}>
+              Olá, {user?.name?.split(" ")[0]} 👋
+            </Text>
             <Text style={styles.counter}>
               {pending} tarefa{pending === 1 ? "" : "s"} pendente
               {pending === 1 ? "" : "s"}
@@ -162,7 +164,7 @@ export function HomeScreen({ navigation }: Props) {
           />
         )}
         ListEmptyComponent={
-          <EmptyState message="Nenhuma tarefa por aqui.\nToque em + para criar a primeira!" />
+          <EmptyState message="Nenhuma tarefa por aqui.Toque em + para criar a primeira!" />
         }
       />
 
